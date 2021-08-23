@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59D6186726D449530064E18C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D6186626D449530064E18C /* MapView.swift */; };
 		59E1F9FE26D40039001CD9B1 /* SwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E1F9FD26D40039001CD9B1 /* SwiftUITutorialApp.swift */; };
 		59E1FA0026D40039001CD9B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E1F9FF26D40039001CD9B1 /* ContentView.swift */; };
 		59E1FA0226D40039001CD9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E1FA0126D40039001CD9B1 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59D6186626D449530064E18C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		59E1F9FA26D40039001CD9B1 /* SwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E1F9FD26D40039001CD9B1 /* SwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		59E1F9FF26D40039001CD9B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				59E1F9FD26D40039001CD9B1 /* SwiftUITutorialApp.swift */,
 				59E1F9FF26D40039001CD9B1 /* ContentView.swift */,
 				59E1FA2826D413C3001CD9B1 /* ImageView.swift */,
+				59D6186626D449530064E18C /* MapView.swift */,
 				59E1FA0126D40039001CD9B1 /* Assets.xcassets */,
 				59E1FA0626D40039001CD9B1 /* Info.plist */,
 				59E1FA0326D40039001CD9B1 /* Preview Content */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E1FA2926D413C3001CD9B1 /* ImageView.swift in Sources */,
+				59D6186726D449530064E18C /* MapView.swift in Sources */,
 				59E1FA0026D40039001CD9B1 /* ContentView.swift in Sources */,
 				59E1F9FE26D40039001CD9B1 /* SwiftUITutorialApp.swift in Sources */,
 			);
