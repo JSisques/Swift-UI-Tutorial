@@ -111,8 +111,6 @@
 		59E1F9F126D40039001CD9B1 = {
 			isa = PBXGroup;
 			children = (
-				59B004F126D4F175001D569F /* Views */,
-				59B004EF26D4F14A001D569F /* Data */,
 				59E1F9FC26D40039001CD9B1 /* SwiftUITutorial */,
 				59E1FA0E26D4003A001CD9B1 /* SwiftUITutorialTests */,
 				59E1FA1926D4003A001CD9B1 /* SwiftUITutorialUITests */,
@@ -133,6 +131,8 @@
 		59E1F9FC26D40039001CD9B1 /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				59B004F126D4F175001D569F /* Views */,
+				59B004EF26D4F14A001D569F /* Data */,
 				59E1F9FD26D40039001CD9B1 /* SwiftUITutorialApp.swift */,
 				59E1FA0126D40039001CD9B1 /* Assets.xcassets */,
 				59E1FA0626D40039001CD9B1 /* Info.plist */,
