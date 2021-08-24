@@ -12,14 +12,18 @@ private let programmers = [Programmer(id: 1, name: "Javi Sisqués", languages: "
 struct ListView: View {
     var body: some View {
         
-        //Indicamos que vamos a sacar los datos de programmers y que el identificador unico va a ser el campo id
-        
-        List(programmers, id: \.id){
-           
-            //Hemos una especie de bucle para recorrer todo el array de forma automatica
+        NavigationView{
+            //Indicamos que vamos a sacar los datos de programmers y que el identificador unico va a ser el campo id
             
-            programmer in
-            RowView(programmer: programmer)
+            List(programmers, id: \.id){
+               
+                //Hemos una especie de bucle para recorrer todo el array de forma automatica
+                
+                programmer in
+                NavigationLink(destination: ListDetailView(programmer: programmer)) {
+                    RowView(programmer: programmer)
+                }
+            }.navigationTitle("Programmers")
         }
     }
 }
