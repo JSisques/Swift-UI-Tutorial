@@ -23,12 +23,19 @@ struct RowView: View {
             }
             
             Spacer()
+            
+            //Mostramos la estrella si es favorito
+            if programmer.favourite{
+                Image(systemName: "star.fill").foregroundColor(.yellow).padding(10)
+            }
+            
         }
     }
 }
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(programmer: Programmer(id: 1, name: "Javi Sisqués", languages: "Swift, Kotlin", avatar: Image(systemName: "person.crop.circle"))).previewLayout(.fixed(width: 400, height: 60))
+        RowView(programmer: Programmer(id: 1, name: "Javi Sisqués", languages: "Swift, Kotlin", avatar: Image(systemName: "person.crop.circle"), favourite: true)).previewLayout(.fixed(width: 400, height: 60))
     }
 }
+
